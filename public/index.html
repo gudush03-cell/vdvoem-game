@@ -167,7 +167,7 @@ button:focus-visible,summary:focus-visible,details:focus-visible{
   border:1px solid rgba(76,46,62,.15);border-radius:12px;
 }
 .deck::after{
-  content:"↗";position:absolute;right:18px;top:14px;
+  content:"";position:absolute;right:18px;top:14px;
   color:rgba(42,28,35,.57);font:normal 19px/1 Georgia,serif;
 }
 .deck:hover,.deck:focus-visible{
@@ -582,6 +582,8 @@ body{
   .hero h1,.hero .logo{animation:none!important;transform:none!important;filter:none!important;opacity:1!important}
   .wordmark,.wordmark .mini-wordmark{transition:none!important}
 }
+
+.deck::after{display:none!important}
 </style>
 </head>
 <body>
