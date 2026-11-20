@@ -1,0 +1,15 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# SQLite payment database and backups
+data/
+*.sqlite
+*.sqlite-*
+*.db
+
+# Logs and OS metadata
+*.log
+.DS_Store
+Thumbs.db
